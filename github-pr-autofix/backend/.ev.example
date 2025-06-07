@@ -1,0 +1,23 @@
+# GitHub PR Auto-Fix Tool Configuration
+# Copy this file to .env and fill in your actual values
+
+# GitHub Personal Access Token
+# Get from: https://github.com/settings/tokens
+# Required permissions: repo, read:org, read:user
+GITHUB_TOKEN=ghp_your_actual_github_token_here
+
+# GitHub Webhook Secret (optional for demo)
+# Use any random string for security
+GITHUB_WEBHOOK_SECRET=your_webhook_secret_here_use_random_string
+
+# Flask Configuration
+FLASK_ENV=development
+FLASK_DEBUG=True
+FLASK_APP=app.py
+
+# API Configuration
+API_BASE_URL=http://localhost:5000
+
+# Windows specific settings
+PYTHONPATH=.
+PYTHONIOENCODING=utf-8
