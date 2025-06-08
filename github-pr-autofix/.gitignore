@@ -1,0 +1,23 @@
+// filepath: d:\OA\Kinder\.gitignore
+# Ignore environment files
+.env
+github-pr-autofix/backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+pip-freeze.txt
+pipenv-setup.lock
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
